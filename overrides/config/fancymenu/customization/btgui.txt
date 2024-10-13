@@ -1,0 +1,331 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = bottom-centered
+  x = -37
+  action = movebutton
+  y = -68
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 75
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=9764%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = bottom-centered
+  x = -37
+  action = movebutton
+  y = -46
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 75
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-centered
+  x = -37
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 75
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-left
+  x = 52
+  action = movebutton
+  y = -72
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = bottom-centered
+  x = -37
+  action = movebutton
+  y = -90
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 75
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -72
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 50
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 140
+  width = 200
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 5ee88202-9327-4df1-90c7-d851e400e1141721766093849
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 157
+  action = deep_customization_element:title_screen_branding
+  actionid = f426e1b7-bc92-4245-ab8f-d3c4fc18d7331721766093850
+  y = 213
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 6873ec13-cf2c-40ed-be1f-f7e9d652dcd11721766093850
+  y = 235
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f1bc7c76-4294-4873-a69d-be4280a6025a1721766093850
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = a95d9f53-32ce-4a5b-b0f3-852a878a9a6d1721766093850
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = be3c11d1-6eac-473b-b5d7-61b38de884cf1721766093850
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = true
+  shadow = true
+  delayappearanceseconds = 1.0
+  scale = 3.0
+  source =  Better galaxies
+  text_border = 0
+  case_mode = normal
+  fadein = true
+  source_mode = direct
+  line_spacing = 1
+  fadeinspeed = 2.0
+  x = -93
+  width = 202
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 49c9144e-d556-461f-a854-7874f93051fe1721767078824
+  y = 49
+  delayappearance = true
+  alignment = left
+  delayappearanceeverytime = false
+  height = 40
+}
+
+customization {
+  orientation = top-centered
+  basecolor = #ffff00
+  shadow = true
+  delayappearanceseconds = 1.0
+  rotation = 20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 2.0
+  x = 61
+  actionid = eb4e153e-b1c0-46e0-8b40-40e40d853bf81721766985159
+  action = addsplash
+  y = 82
+  delayappearance = true
+  text = Thank you for playing my integration
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = bottom-right
+  delayappearanceseconds = 2.0
+  slim = true
+  scale = 20
+  showname = false
+  skinpath = fancymenu_data/7051468732256440222.png
+  crouching = false
+  x = -138
+  actionid = 772e2d8e-3d0b-494b-9a28-79ed457f24c81721894183765
+  action = addentity
+  y = -25
+  delayappearance = true
+  playername = CN_Mitama
+  parrot = false
+  delayappearanceeverytime = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 395
+  slim = false
+  actionid = bdadaa4c-8721-4fde-a98c-2818fcb26f711721894184097
+  action = addentity
+  y = 498
+  scale = 35
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  delayappearanceseconds = 1.0
+  scale = 0.8
+  source =  Integration author: CN_Mitama
+  text_border = 0
+  case_mode = normal
+  fadein = true
+  source_mode = direct
+  line_spacing = 1
+  fadeinspeed = 2.0
+  x = -128
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e961f34f-dfaa-462a-b2e9-cc28cf6098df1721895046943
+  y = -50
+  delayappearance = true
+  alignment = left
+  delayappearanceeverytime = false
+  height = 40
+}
+
